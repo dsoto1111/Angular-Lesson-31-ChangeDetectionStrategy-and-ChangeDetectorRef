@@ -1,0 +1,7 @@
+<p>Child Component</p>
+<label>{{labelValue}}</label>
+<ol>
+    <li *ngFor="let instrmnt of instruments">{{ instrmnt.instrument }}</li>
+</ol>
+<ng-content></ng-content>
+<button (click)="mark()">Mark</button>
